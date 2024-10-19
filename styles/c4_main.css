@@ -9,7 +9,7 @@ header img {
 	float: left;
 }
 
-h2{
+header h2{
 	font-size: 170%;
 	color: #800000;
 }
@@ -18,6 +18,15 @@ header h3{
 	font-size: 130%;
 	font-style: italic;
 	text-indent: 30px;
+}
+
+.shadow{
+	text-shadow: #800000;
+}
+
+/* Global color */
+:root {
+	--global-color-1: #800000;
 }
 
 /* the styles for the main content */
@@ -35,7 +44,8 @@ main h3 {
 	font-size: 105%;
 }
 
-a:hover{
+/* the styles for the links */
+:any-link:hover{
 	font-style: italic;
 }
 
