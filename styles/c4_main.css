@@ -20,8 +20,9 @@ header h3{
 	text-indent: 30px;
 }
 
-em .shadow {
-	text-shadow: #800000;
+.shadow {
+	/* text-shadow: horizontal-shadow vertical-shadow blur-radius */
+	text-shadow: 2px 2px #800000;
 }
 
 /* Global color */
